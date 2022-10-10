@@ -1,8 +1,10 @@
-import express from 'express';
-const router  = express.Router();
+import {Router} from 'express';
+import CashFlowRouter from './CashFlows';
+import UserDataRouter from './UsersData';
 
-router.get('/', (_req, res) => {
-  res.json({msg:'Hello World!'});
- });
+const router  = Router();
+
+router.use('/cashflow', CashFlowRouter);
+router.use('/userdata', UserDataRouter);
 
 export default router;
