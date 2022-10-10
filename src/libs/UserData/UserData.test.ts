@@ -12,11 +12,11 @@ describe('UserData Lib Unit Tests', ()=>{
         const userDataInstance = new UserData();
 
         const userDataItem : IUserData = {
-            firstName: 'Oscar',
-            lastName: 'Mejia',
-            email: 'mejiaoscar@unicah.edu',
-            username: 'mejiasoc',
-            password: 'testing21@_2',
+            firstName: 'Sandra',
+            lastName: 'Calderon',
+            email: 'sj_calderonr@unicah.edu',
+            username: 'calderons',
+            password: 'Leviosa',
             currentStatus: 'ACT',
             createdAt: new Date()
         }
@@ -30,11 +30,11 @@ describe('UserData Lib Unit Tests', ()=>{
         const id = 1;
 
         const userDataItem : IUserData = {
-            firstName: 'Josue',
-            lastName: 'Mejia',
-            email: 'mejiaoscar@unicah.edu',
-            username: 'mejiasoc2',
-            password: 'testing21@_2',
+            firstName: 'Sandra',
+            lastName: 'Calderon',
+            email: 'sj_calderonr@unicah.edu',
+            username: 'calderons',
+            password: 'Leviosa',
             currentStatus: 'ACT',
             createdAt: new Date()
         }
